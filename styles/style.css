@@ -3,17 +3,15 @@
 *::after {
   box-sizing: border-box;
 }
-
 html {
   block-size: 100%;
 }
-
 .page {
   inline-size: 1200px;
   block-size: 100%;
   margin: auto;
   color: #fff;
-  font-family: "Fira Sans Condensed", sans-serif;
+  font-family: "Fira Sans Condensed", Arial, sans-serif;
   font-size: 18px;
   background-color: #1b1919;
   display: flex;
@@ -21,7 +19,6 @@ html {
   align-items: center;
   flex-direction: row;
 }
-
 h1,
 h2,
 h3,
@@ -35,21 +32,17 @@ fieldset {
   margin: 0;
   padding: 0;
 }
-
 ul,
 ol {
   list-style: none;
 }
-
 /* Кастомный скроллбар */
 .custom-scrollbar::-webkit-scrollbar {
   width: 4px;
 }
-
 .custom-scrollbar::-webkit-scrollbar-track {
   background: rgb(217 217 217 / 10%);
 }
-
 .custom-scrollbar::-webkit-scrollbar-thumb {
   background-color: #d9d9d9;
 }
@@ -76,23 +69,19 @@ ol {
   display: block;
   gap: 40px;
 }
-
 h1 {
   font-size: 75px;
   font-weight: 700;
-  letter-spacing: 0;
   text-transform: uppercase;
   line-height: 94%;
-  font-family: oswald;
+  font-family: oswald, Arial, sans-serif;
   padding-bottom: 20px;
 }
-
 .content__accent {
   color: #545050;
 }
 .content__details {
   width: 399px;
-  height: 534px;
 }
 .content__video-card {
   display: flex;
@@ -101,12 +90,11 @@ h1 {
   justify-content: space-between;
 }
 .search-form__fieldset-title {
-  font-family: Fira Sans Condensed;
+  font-family: Fira Sans Condensed, Arial, sans-serif;
   font-weight: 400;
   font-style: normal;
   font-size: 18px;
   line-height: 100%;
-  letter-spacing: 0%;
   width: 212px;
   padding-bottom: 7px;
 }
@@ -127,7 +115,6 @@ h1 {
 .search-form__textfield::placeholder {
   color: rgb(255 255 255 / 0.7);
 }
-
 .search-form__textfield {
   border: none;
   border-top: 1px solid white;
@@ -136,7 +123,7 @@ h1 {
   appearance: none;
   background-color: rgba(27, 25, 25, 0.5);
   width: 225px;
-  font-family: Fira Sans Condensed;
+  font-family: Fira Sans Condensed, Arial, sans-serif;
   font-weight: 400;
   font-size: 18px;
   line-height: 100%;
@@ -144,7 +131,6 @@ h1 {
 .search-form__textfield:focus-visible {
   outline: 1px solid white;
 }
-
 .result {
   width: 711px;
 }
@@ -158,22 +144,17 @@ h1 {
   width: 100%;
   height: 100%;
 }
-
 .content__video-card-thumbnail {
   min-width: 194px;
   height: 103px;
   object-fit: contain;
   object-position: 50% 50%;
 }
-
 .content__card-link {
   text-decoration: none;
-  font-family: Oswald;
   color: #fff;
-  letter-spacing: 0;
   font-weight: 400;
-
-  font-family: Fira Sans Condensed;
+  font-family: Oswald, Fira Sans Condensed, Arial, sans-serif;
 }
 .content__video-card-title {
   font-size: 30px;
@@ -208,24 +189,22 @@ h1 {
   gap: 15px;
   width: 212px;
 }
-.search-form__checkbox-list:hover {
+.search-form__label:hover {
   text-decoration: underline;
 }
-.search-form__checkbox-list:focus-visible {
+.search-form__label:focus-visible {
   outline: 1px solid #fff;
 }
-
 .button {
   border: 1px solid #fff;
   color: #fff;
   background-color: transparent;
   font-weight: 700;
   font-size: 18px;
-  font-family: Fira sans Condensed, sans-serif;
+  font-family: Fira sans Condensed, Arial, sans-serif;
   cursor: pointer;
   height: 34px;
   line-height: 100%;
-  letter-spacing: 0%;
   text-align: center;
 }
 .search-form__submit-button {
@@ -240,20 +219,21 @@ h1 {
 }
 .button:active {
   background-color: rgb(83 83 80 / 0.7);
+  text-decoration: none;
 }
 .button:focus-visible {
   outline: 1px solid #fff;
 }
-.content__video-card-description-container:hover {
+.content__video-card:hover {
   text-decoration: underline;
 }
-.content__video-card-description-container:active {
+.content__video-card:active {
   background-color: rgb(83 83 80 / 0.7);
+  text-decoration: none;
 }
-.content__video-card-description-container:focus-visible {
+.content__video-card:focus-visible {
   outline: 1px solid #fff;
 }
-
 .search-form__pseudo-checkbox {
   border: 1px solid white;
   width: 19px;
@@ -275,9 +255,8 @@ h1 {
   outline: 1px solid white;
 }
 .content__card-link_current {
-  background-color: #fff;
+  background-color: rgb(83 83 80 / 0.7);
 }
-
 .content__list-item {
   margin-bottom: 30px;
   padding-left: 3px;

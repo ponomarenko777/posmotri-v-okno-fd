@@ -174,6 +174,7 @@ h1 {
 .content__video-card-description {
   line-clamp: initial;
   overflow: hidden;
+  font-family:Fira Sans Condensed, Arial, sans-serif;
 }
 .visually-hidden {
   position: absolute;

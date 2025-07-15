@@ -138,7 +138,7 @@ h1 {
   width: 100%;
   margin-bottom: 8px;
   object-fit: contain;
-  padding-top: 68px;
+  margin-top: 68px;
 }
 .result__video {
   width: 100%;
